@@ -6,7 +6,7 @@ Use Plot like a SwiftUI with a some little builder pattern :sunglasses:
 
 1. Create a `View`.
 
-```swift=
+```swift
 // HelloWorldView.swift
 import Plot
 import VaporPlotUI
@@ -29,7 +29,7 @@ struct HelloWorldView: View {
 
 2. Render it to `Response`.
 
-```swift=
+```swift
 // routes.swift
 func routes(_ app: Application) throws {
     app.get("hello") { req async -> Response in
